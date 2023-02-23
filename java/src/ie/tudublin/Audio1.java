@@ -97,6 +97,18 @@ public class Audio1 extends PApplet
             background(0);            
             break;
 
+        case 2:
+            background(0);            
+            break;
+            
+        case 3:
+            background(0);            
+            break;
+
+        case 4:
+            background(0);            
+            break;
+
         }
         
 
