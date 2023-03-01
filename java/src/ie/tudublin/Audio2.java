@@ -70,6 +70,12 @@ public class Audio2 extends PApplet{
         lerpedY = lerp(lerpedY, y, 0.1f);
         circle(200, y, 50);
         circle(300, lerpedY, 50);
+
+        PitchSpeller ps = new PitchSpeller();
+        String spelling = ps.spell(freq);
+        fill(255);
+        textSize(20);
+        text("Note: " + spelling, 100, 150);
         
 
 
