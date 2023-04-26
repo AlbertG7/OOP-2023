@@ -62,16 +62,12 @@ public class Main
 		System.out.println("Hello world");
 		
 
-<<<<<<< HEAD
 		yasc();
 
 		PitchSpeller ps = new PitchSpeller();
 		System.out.println(ps.spell(330));
 		System.out.println(ps.spell(420));
 		System.out.println(ps.spell(1980));
-=======
-		yasc();
->>>>>>> 137e6bc60112c8f0dcf8158890e4b2f48dabad05
 	}
 	
 }
